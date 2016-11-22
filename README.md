@@ -31,6 +31,7 @@ Attendees for the workshop are recommended to prepare the following before the e
                -p 2181:2181 \ # 2181 for Zookeeper Quorum
                -p 3000:3000 \ # 3000 for Grafana Web UI
                -p 8086:8086 \ # 8086 for InfluxDB server
+               -p 8083:8083 \ # 8083 for InfluxDB Web UI
                flinktw/jcconf2016-workshop bash
      ```
      
