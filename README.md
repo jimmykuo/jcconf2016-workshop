@@ -25,7 +25,7 @@ Attendees for the workshop are recommended to prepare the following before the e
      environment to setup these systems. Afterwards, you can startup the environment with:
      
      ```bash
-    docker run -it --rm -h jcconf2016-flink \
+    docker run -it --name monitor --rm -h jcconf2016-flink \
                -p 8081:8081 \ # 8081 for Flink JobManager Web UI
                -p 9092:9092 \ # 9092 for Kafka broker server
                -p 2181:2181 \ # 2181 for Zookeeper Quorum
